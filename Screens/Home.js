@@ -55,7 +55,7 @@ const Home = () => {
       <View style={{ alignItems: "center", justifyContent: "center" }}>
         <TextInput
           style={styles.input}
-          placeholder='Please enter your city '
+          placeholder='Please enter your city name '
           value={city}
           onChangeText={setCity}
         />
